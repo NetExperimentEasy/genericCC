@@ -212,7 +212,7 @@ PACKAGE_TARNAME = remy
 PACKAGE_URL = 
 PACKAGE_VERSION = 0.1
 PATH_SEPARATOR = :
-PICKY_CXXFLAGS = -pedantic -Wall -Wextra -Weffc++ -Werror -fno-default-inline
+PICKY_CXXFLAGS = -pedantic -Wall -Wextra -Weffc++ -Werror -fno-default-inline -Werror=deprecated-copy
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
 PKG_CONFIG_PATH = 
